@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+     color: #fff;
+     text-decoration: none;
+}
+body{
+  display: flex;
+  height: 100%;
+  width: auto;
+  position: relative;
+  font-family: 'Oswald', 'Roboto', sans-serif;
+  background: url('../img/car.png'), #050827 50% / cover no-repeat; 
+}
+.img_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.panel{
+    width: 384px;
+    min-width: 384px;min-width: 384px;
+    /* opacity: 0.5; */
+    /* background: var(--vdarkblue, #0B0B0D); */
+    /* backdrop-filter: blur(20px); */
+    display:flex;  
+    flex-direction: column; 
+    position: fixed;
+}
+.logo{
+  margin-top: 40px; 
+  margin-left: -30px;
+  justify-content:center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content{
+    left:384px;
+    width: auto;
+    padding-top: 150px;
+    padding-left:100px;
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+}
+.menu_up{
+    margin-top:40px;
+   
+}
+li{
+    color: var(--FFF, #FFF);
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.19px;
+    margin-top: 40px;
+    margin-left: 110px;
+    text-align: left;
+    text-decoration: none;
+}
+li:active{
+    color: var(--FFF, #A276FF);
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.19px;
+    margin-top: 30px;
+    margin-left: 110px;
+    text-align: left;
+    text-decoration: none;
+}
+ul{
+    list-style-type:  none;
+    text-align: center;
+}
+.menu_bot{
+    margin-top:150px;
+    margin-bottom: 30px;
+}
+.activ{
+     color: var(--A276FF, #A276FF);
+     text-align: left;
+     margin-top: 20px;
+     position: relative;
+}
+.foo{
+    opacity: 0.25;
+      
+}
+.news{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color:#fff;
+}
+.info{
+    width: 1552px;
+    height: 1424px;    
+    background-color:lightgray;
+    border: 2px solid gray;
+    border-radius: 50px;
+    display:flex;  
+    flex-direction: row;
+    padding-top: 315px;
+    padding-left: 112px;
+    padding-top: 114px;
+}
+.text{
+    width: 50%;
+    font-family: Oswald;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 699px;
+    height: 944px;  
+}
+.h2{
+    color: #111;
+    font-family: Oswald;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165.688%; /* 92.785px */
+   
+}
+.p1{
+    color: #111;
+    font-family: Oswald;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165.688%; /* 92.785px */
+}
+.p2{
+    color: #111;
+/* Body font */
+font-family: Roboto;
+font-size: 29px;
+font-style: normal;
+font-weight: 400;
+line-height: 155.187%;
+}
+h4{
+    color: #111;
+font-family: Oswald;
+font-size: 27px;
+font-style: normal;
+font-weight: 700;
+line-height: 165.688%;
+
+}
+.img2{
+    border-radius: 25px;
+    border: 6px solid #FFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.45);
+ 
+}

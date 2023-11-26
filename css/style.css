@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+   color: #fff;
+   text-decoration: none;
+}
+body{
+  font-family: 'Oswald', 'Roboto', sans-serif;
+    width: 1920px;
+    height: 985px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 70px;
+}
+.img{
+   display:flex;
+   flex-direction: row;
+   background-color:#A276ff;
+   padding-left:300px;
+   grid-gap:100px;
+   
+}
+.img1{
+  background-color:#A276ff;
+  min-width: 600px;
+  margin-top: 85px;
+  margin-bottom: 31px;
+ }
+.img2{
+  align-content: center;
+  background-color:#A276ff;
+  min-width: 600px;
+  max-width: 800px;
+  margin-top: 83px;
+  margin-bottom: 28px;
+}
+.txt{
+  height: 100%;
+  text-align: center;
+  background-color: #050729;
+  color: #ffffff;
+}
+.item-1{
+  color: var(--FFF, #FFF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.item-2{
+  color: var(--FFF, #FFF);
+  text-align: center;
+  font-family: Oswald;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+.item-3{
+  color: var(--A276FF, #A276FF);
+  font-family: Oswald;
+  font-size: 190px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 187px;
+  text-transform: uppercase;
+}
+.item-4{
+  color: var(--FFF, #FFF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 21px;
+  margin-bottom: 64px;
+}
+/*p{
+    color: white;
+  }
+  h1{
+    color: aqua;
+  }
+  
+  html, body{
+    height: 100%;
+  }grid-column: 1/2
+  body{
+    background: #A276ff; 
+  background: -moz-linear-gradient(top, #A276ff 50%, #000000 50%, #000000 50%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#A276ff), color-stop(50%,#000000), color-stop(50%,#000000)); 
+  background: -webkit-linear-gradient(top, #A276ff 50%,#000000 50%,#000000 50%); 
+  background: -o-linear-gradient(top, #A276ff0 50%,#000000 50%,#000000 50%); 
+  background: -ms-linear-gradient(top, #A276ff 50%,#000000 50%,#000000 50%); 
+  background: linear-gradient(to bottom, #A276ff 50%,#000000 50%,#000000 50%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); 
+  }*/
+  
